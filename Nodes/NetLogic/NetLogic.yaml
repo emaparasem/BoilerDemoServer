@@ -1,0 +1,20 @@
+Name: NetLogic
+Id: g=6a96deddc16e9647e90618d79df80db2
+Type: FolderType
+Children:
+- Name: AuditLogic
+  Id: g=8fd4962d64797a7cce62722026f2b3c8
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: InsertRow
+    Id: g=294a64617fb849add751d30a9a091a1c
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=c89353ca4c16fb4a595730fed23f8715
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"recipeName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"recipeAction","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
